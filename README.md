@@ -47,10 +47,28 @@
    en el cliente se digtan los 20 numeros y nos retorna el cuadrado de cada uno de estos.
    
    
+   ## Reto 1
+   
+   Escriba un servidor web que soporte múlltiples solicitudes seguidas (no concurrentes).      El servidor debe retornar todos los archivos solicitados, incluyendo páginas html e        imágenes. Construya un sitio web con javascript para probar su servidor. Despliegue su      solución en Heroku. NO use frameworks web como Spark o Spring use solo Java y las          librerías para manejo de la red.
+       
+   Para observar el resultado  primero vamos al browser y digitamos la siguiente URL  
+   
+   http://localhost:35000/mypage.html
+   
+   Esto nos retorma la pagina web donde encontramos la imagen 
+   
+   
+   
+   Para el siguiente punto del ejercicio ejecutamos la siguiente URL 
+   
+    http://localhost:35000/index.html 
     
-       
-       
-       
+   Donde nos dirige a una pagina web de Booststrap y podemos ver el html, js y css
+   
+   
+   
+   Link de Heoku para ver la implementacion de este ejercicio:
+    
        
        
        

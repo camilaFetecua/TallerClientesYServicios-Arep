@@ -22,6 +22,8 @@
    para su objeto debe contener datos suficientes.
     
    El resultado del ejercicio tomando http://admin:hello1234@10.20.130.230:20880/context/path?version=1.0.0&application=morgan#anchor1 como URL es el siguiente :
+   
+ ![Imagen](https://github.com/camilaFetecua/TallerClientesYServicios-Arep/blob/master/Imagenes/Ejercicio1.PNG)
   
     
     
@@ -36,6 +38,8 @@
    El resultado del ejercicio es el siguiente :
       
     https://github.com/camilaFetecua/TallerClientesYServicios-Arep/blob/master/resultado.html
+    
+  ![Imagen](https://github.com/camilaFetecua/TallerClientesYServicios-Arep/blob/master/Imagenes/Ejercicio2.PNG)
       
     
      
@@ -47,21 +51,28 @@
    en el cliente se digtan los 20 numeros y nos retorna el cuadrado de cada uno de estos.
    
    
+   ![Imagen](https://github.com/camilaFetecua/TallerClientesYServicios-Arep/blob/master/Imagenes/Ejercicio3a.PNG)
+   
+   ![Imagen](https://github.com/camilaFetecua/TallerClientesYServicios-Arep/blob/master/Imagenes/Ejercicio3b.PNG)
+   
+   
    ## Reto 1
    
    Escriba un servidor web que soporte múlltiples solicitudes seguidas (no concurrentes).      El servidor debe retornar todos los archivos solicitados, incluyendo páginas html e        imágenes. Construya un sitio web con javascript para probar su servidor. Despliegue su      solución en Heroku. NO use frameworks web como Spark o Spring use solo Java y las          librerías para manejo de la red.
        
    Para observar el resultado  primero vamos al browser y digitamos la siguiente URL  
    
-   http://localhost:35000/mypage.html
+   http://localhost:8081/mypage.html
    
    Esto nos retorma la pagina web donde encontramos la imagen 
+   
+   ![Imagen](https://github.com/camilaFetecua/TallerClientesYServicios-Arep/blob/master/Imagenes/Reto1a.PNG)
    
    
    
    Para el siguiente punto del ejercicio ejecutamos la siguiente URL 
    
-    http://localhost:35000/index.html 
+    http://localhost:8081/index.html 
     
    Donde nos dirige a una pagina web de Booststrap y podemos ver el html, js y css
    
@@ -69,6 +80,14 @@
    
    Link de Heoku para ver la implementacion de este ejercicio:
     
+    
+   # Licencia
+
+  Para consultar la Licencia del proyecto haga [click aqui](https://github.com/camilaFetecua/TallerClientesYServicios-Arep/blob/master/LICENSE.txt)
+  
+  
+# Autor 
+  **Maria Camila Fetecua Garcia** 
        
        
        

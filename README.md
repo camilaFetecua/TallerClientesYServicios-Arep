@@ -97,6 +97,10 @@ El resultado del ejercicio tomando http://admin:hello1234@10.20.130.230:20880/co
     
    Donde nos dirige a una pagina web de Booststrap y podemos ver el html, js y css
    
+   ![Imagen](https://github.com/camilaFetecua/TallerClientesYServicios-Arep/blob/master/Imagenes/Reti1b.PNG)
+   
+   ![Imagen](https://github.com/camilaFetecua/TallerClientesYServicios-Arep/blob/master/Imagenes/Reti1a1b.PNG)
+   
    
    
    Link de Heoku para ver la implementacion de este ejercicio:

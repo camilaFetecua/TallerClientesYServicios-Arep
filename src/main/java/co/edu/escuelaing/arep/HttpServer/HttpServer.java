@@ -81,15 +81,15 @@ public class HttpServer {
         clientSocket.close();
     }
 
-    public String createResponse(String path) {
+    public String createResponse(String path){
         String type = "text/html";
-        if (path.endsWith(".css")) {
+        if(path.endsWith(".css")){
             type = "text/css";
-        } else if (path.endsWith(".js")) {
+        }else if(path.endsWith(".js")){
             type = "text/javascript ";
-        } else if (path.endsWith(".jpeg")) {
+        }else if(path.endsWith(".jpeg")){
             type = "image/jpeg";
-        } else if (path.endsWith(".png")) {
+        }else if(path.endsWith(".png")){
             type = "image/png";
         }
         Path file = Paths.get("./www" + path);
@@ -105,7 +105,7 @@ public class HttpServer {
             System.err.format("IOException: %s%n", x);
         }
         return "HTTP/1.1 200 OK \r\n"
-                + "Content-Type: " + type + "\r\n"
+                + "Content-Type: "+type+"\r\n"
                 + "\r\n"
                 + outmsg;
     }
@@ -114,6 +114,6 @@ public class HttpServer {
         if (System.getenv("PORT") != null) {
             return Integer.parseInt(System.getenv("PORT"));
         }
-        return 8081;
+        return 35001;
     }
 }

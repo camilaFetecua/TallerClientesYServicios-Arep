@@ -99,7 +99,7 @@ El resultado del ejercicio tomando http://admin:hello1234@10.20.130.230:20880/co
    
    ![Imagen](https://github.com/camilaFetecua/TallerClientesYServicios-Arep/blob/master/Imagenes/Reti1b.PNG)
    
-   ![Imagen](https://github.com/camilaFetecua/TallerClientesYServicios-Arep/blob/master/Imagenes/Reti1a1b.PNG)
+   ![Imagen](https://github.com/camilaFetecua/TallerClientesYServicios-Arep/blob/master/Imagenes/Reto1a1b.PNG)
    
    
    

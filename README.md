@@ -106,6 +106,8 @@ El resultado del ejercicio tomando http://admin:hello1234@10.20.130.230:20880/co
    Link de Heoku para ver la implementacion de este ejercicio:
    
    https://tallerclientesservidores.herokuapp.com/mypage.html
+   
+   
    https://tallerclientesservidores.herokuapp.com/index.html
     
     
